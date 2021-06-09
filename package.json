@@ -1,0 +1,15 @@
+{
+  "name": "dsd_raffle",
+  "version": "1.0.0",
+  "description": "Find a raffle winner",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "test:once": "jest"
+  },
+  "author": "Alex Steinberg",
+  "license": "UNLICENCED",
+  "devDependencies": {
+    "jest": "^27.0.4"
+  }
+}
