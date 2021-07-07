@@ -17,7 +17,7 @@ const drawEmails = (list, num) => {
 		const { email: winner, index} = drawRaffle(clone);
 		result.push(winner);
 		num --;
-		clone.splice(index);
+		clone.splice(index, 1);
 	}
 
 	return result;
