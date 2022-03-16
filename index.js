@@ -103,3 +103,13 @@ const raffle = (prizeCategories, entriesFilePath) => {
 };
 
 module.exports = { drawEmails, parseCSVContent, readFile, raffle };
+
+// Example Call
+// raffle(
+//   [
+//     ["Coffee Voucher", 1],
+//     ["1-year JetBrains License", 1],
+//     ["Nigiro Tea", 1],
+//   ],
+//   "testfiles/testentries.csv"
+// );
